@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
         .setTitle("Reload")
         .setDescription("Bu komutu sadece sahibim kullanabilir..")
         .setColor("#cdf785");
-        if(message.author.id !== '683036205453148190') return message.channel.send(embed);
+        if(message.author.id !== '457598109007085578') return message.channel.send(embed);
 
         if(!args[0].toLowerCase()) return message.channel.send("Bir komut ismi gir!")
 
