@@ -26,7 +26,7 @@ moment.locale('tr-TR');
             return days + (days == 1 ? " gün" : " gün") + " önce";
         };
 
-  if (!member) return message.reply('Bir kullanıcı belirt g!profil @Gnarge veya g!profil <Kullanıcı_ID> ')
+  if (!member) return message.reply('Bir kullanıcı belirt mb!profil @ꌀKeltoş Şirin veya mb!profil <Kullanıcı_ID> ')
 
         let serverSize = message.guild.memberCount;
 
