@@ -11,7 +11,7 @@ exports.run = async (client, message, args) => {
   .setColor('#2667FF')
   .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
    .setDescription(client.commands.filter(cmd => cmd.conf.kategori === 'Genel').map(cmd => `:white_small_square: - **${prefix}${cmd.help.name}** ${cmd.help.description}`).join("\n "))
-        .addField("» Linkler", ` [Davet Et](https://discord.com/oauth2/authorize?client_id=BOTUNİDSİ&scope=bot&permissions=2108157183)` + "** | **" + `[Destek Sunucusu](https://discord.gg/2vPdmYz)`  + "** | **" + `[Oy Ver](https://bit.ly/3980hKq)`  + "** | **" + `[Web Sitesi](https://gnarge.xyz/)  `, false)
+        .addField("» Linkler", ` [Davet Et](https://discord.com/oauth2/authorize?client_id=838050736230498334&scope=bot&permissions=2108157183)` + "** | **" + `[Destek Sunucusu](https://discord.gg/riviera)`  + "** | **" + `[Oy Ver](yakında)`  + "** | **" + `[Web Sitesi](yakında)  `, false)
               return message.channel.send(Genel)
          
        
@@ -24,7 +24,7 @@ exports.run = async (client, message, args) => {
   .setColor('#2667FF')
   .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
    .setDescription(client.commands.filter(cmd => cmd.conf.kategori === 'Sunucu').map(cmd => `:white_small_square: - **${prefix}${cmd.help.name}** ${cmd.help.description}`).join("\n "))
-        .addField("» Linkler", ` [Davet Et](https://discord.com/oauth2/authorize?client_id=BOTUNİDSİ&scope=bot&permissions=2108157183)` + "** | **" + `[Destek Sunucusu](https://discord.gg/2vPdmYz)`  + "** | **" + `[Oy Ver](https://bit.ly/3980hKq)`  + "** | **" + `[Web Sitesi](https://gnarge.xyz/)  `, false)
+        .addField("» Linkler", ` [Davet Et](https://discord.com/oauth2/authorize?client_id=838050736230498334&scope=bot&permissions=2108157183)` + "** | **" + `[Destek Sunucusu](https://discord.gg/riviera)`  + "** | **" + `[Oy Ver](Yakında)`  + "** | **" + `[Web Sitesi](yakında)  `, false)
               return message.channel.send(Sunucu)
          
       
