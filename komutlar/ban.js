@@ -18,7 +18,7 @@ var prefix = ayarlar.prefix;
     let member = message.guild.member(user)
     if (!member) return message.channel.send(`Etiketlediğin kullanıcıyı sunucuda bulamadım.`)
 
- if (!message.guild.member(user).bannable) return message.channel.send(`Bu kişiyi sunucudan yasaklayamıyorum çünkü \`benden daha yüksek bir role sahip\` ya da \`bana gerekli yetkileri vermedin\`.`);
+ if (!message.guild.member(user).bannable) return message.channel.send(`Bu kişiyi sunucudan yasaklayamıyorum çünkü \`benden daha yüksek bir role sahip gibi görünüyor\` ya da \`bana gerekli yetkileri vermedin\`.`);
 
    if (!message.guild.member(user).bannable) return message.channel.send('Sunucudaki yetkilileri yasaklayamam!');
 
