@@ -2,9 +2,9 @@ var figlet = require('figlet');
 const Discord = require('discord.js');
 
 module.exports.run = (client, message, args, tools) => {
-  var sınır = 75 // Kendiniz en yüksek harf sayısını ayarlayabilirsiniz
+  var sınır = 90 // Kendiniz en yüksek harf sayısını ayarlayabilirsiniz
   
-  if(args.join(' ').length > sınır) return message.channel.send(`Çok karakter yazdınız. En fazla ${sınır} karakter yazabilirsin!`) 
+  if(args.join(' ').length > sınır) return message.channel.send(`Hey! Sen harf sınırnı aştın. En fazla ${sınır} karakter yazabilirsin!`) 
      if(!args[0]) return message.channel.send('Lütfen geçerli yazı giriniz.');
   
   figlet(`${args.join(' ')}`, function(err, data) {
